@@ -14,9 +14,7 @@ Understanding the service dimensions such as "Leg Room Service", "Inflight Enter
 
 The aviation industry like most fast-paced businesses requires swift action to retain or attract customers. With the aid of data analytics, creating a business model that reflects on customer demands through uncovering patterns in a data-driven model is paramount.
 
-
 The following sections will illustrate the steps taken to develop the model;
-
 
 ### I. Data Collection
 
