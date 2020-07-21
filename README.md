@@ -24,6 +24,7 @@ The Airline Passenger Satisfaction data was collated from [Kaggle.com ](https://
 
 ### II. Data Cleaning
 
+Based on the data, there are several things that we need to do to prepare the data before fitting it to a model. There are a few categorical variables that need to be encoded, including the target variable "Satisfaction".
 
 
 ### III. Exploratory Data Analysis
