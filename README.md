@@ -1,6 +1,6 @@
 # Airline Passenger Satisfaction Predictive Model
 
-By: RIchard Cornellius Suwandi & Chibili Mugala
+By: Richard Cornellius Suwandi & Chibili Mugala
 
 Start Date: 21/07/2020
 
