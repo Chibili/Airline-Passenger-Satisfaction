@@ -32,8 +32,9 @@ it to predict the remaining customer base.
 Secondly, identifying limitations surrounding the data and gathering external data which may be useful for modeling purposes. This may include exploring other airline data at different service dimensions and creating additional features for the model. For example, **(provide possible feature engineering idea)**
 Exploration of interactions between different variables through correlation analysis and look out for multicollinearity by creating interaction variables. An example of this correlation may occur between independent variables "Age" and "Class" – i.e. people of the older brackets will be more inclined to a particular class offering.
 
-Furthermore, transforming the required data so that it is in an appropriate format for analysis. This may include steps such as ensuring that the data types are appropriate and rolling data up to an aggregated level. Or, joining in already
-aggregated external source data **(provide example)** to create additional variables.
+Furthermore, transforming the required data so that it is in an appropriate format for analysis. This may include steps such as ensuring that the data types are appropriate and rolling data up to an aggregated level. Or, joining in already aggregated external source data **(provide example)** to create additional variables.
+
+Another possible step to do is factor analysis, where we describe the variability among correlated variables in fewer variables (factors). For instance, instead of having multiple variables to describe the service (On-board Service, Baggage Handling, Inflight Service, etc.), we could work with one factor called "Service".
 
 "Document assumptions, limitations, and exclusions for the data; as well as how you would further improve in the next stage if there was additional time to address assumptions and remove limitations."
 
