@@ -26,11 +26,16 @@ Based on the data, there are several things that we need to do to prepare the da
 
 ### III. Exploratory Data Analysis
 
+The EDA will involve processes related with understanding characteristics of given fields in the underlying data such as variable distributions, whether the dataset is skewed towards a certain demographic, and the data validity of the fields. For  instance, a training dataset may be highly skewed towards Class. If so, how will this impact the results when using
+it to predict over the remaining customer base.
 
-The EDA will involved process related with understanding characteristics of given fields in the underlying data such as variable distributions, whether the dataset is skewed towards a certain demographic and the data validity of the fields. For  instance, a training dataset may be highly skewed towards  Class. If so, how will this impact the results when usingit to predict over the remaining customer base.
+Secondly, identifying limitations surrounding the data and gathering external data which may be useful for modelling purposes. This may include exploring other airline data at different service dimensions and creating additional features for the model. For example, **(provide possible feature engineering idea)**
+Exploration of interactions between different variables through correlation analysis and look out for multicollinearity by creating interaction variables. An example of this correlation may occur between independent variables "Age" and "Class" – i.e. people of the older brackets will be more inclined to a particular class offering.
 
-Secondly, identifying limitations surrounding the data and gather external data which may be useful for modelling purposes. This may include exploring other airline data at different service dimensions and creating additional features for the model. For example,  **(provide possible feature engineering idea)**Exploration of interactions between different variables through correlation analysis and look out for multicollinearity by creating interaction variables. An example of this correlation may occur between independent variables "Age" and "Class"" – i.e. people of the older brackets will be more inclined to a particular class offering.
-Furthermore, transformation of required data so that it is in an appropriate format for analysis. This may include steps such as ensuring that the data types are appropriate and rolling data up to an aggregated level. Or, joining in alreadyaggregated external source data **(provide example)** to create additional variables."Document assumptions, limitations and exclusions for the data; as well as how you would further improve in the next stage if there was additional time to address assumptions and remove limitations."
+Furthermore, transformation of required data so that it is in an appropriate format for analysis. This may include steps such as ensuring that the data types are appropriate and rolling data up to an aggregated level. Or, joining in already
+aggregated external source data **(provide example)** to create additional variables.
+
+"Document assumptions, limitations and exclusions for the data; as well as how you would further improve in the next stage if there was additional time to address assumptions and remove limitations."
 
 ### IV. Modeling Data
 
