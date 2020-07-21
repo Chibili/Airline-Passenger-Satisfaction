@@ -10,7 +10,7 @@ The aviation industry like most fast-paced businesses require swift action to re
 
 Other essential tasks will involve correlation tests; this will generate a mapping of variables in relation to multicollinerity. Variables with high variance from the "Satisfaction" independent variable will play a vital role in the modeling stage while ones with little or no variance will be excluded. 
 
-Understanding the service dimensions such as "Leg Room Service", "Inflight Entertainment", "On-board Service" and "Checkin Service" will possibly lead to feature enginering. The target variable (Satisfaction) can undergo data transformation through either lable encoding with "Yes" or "No" | 0 or 1 outcomes. 
+Understanding the service dimensions such as "Leg Room Service", "Inflight Entertainment", "On-board Service" and "Checkin Service" will possibly lead to feature enginering. The target variable (Satisfaction) can undergo data transformation through label encoding with either 0 or 1 outcomes. 
 
 The aviation industry like most fast-paced businesses requires swift action to retain or attract customers. With the aid of data analytics, creating a business model that reflects on customer demands through uncovering patterns in a data-driven model is paramount.
 
