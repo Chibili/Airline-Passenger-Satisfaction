@@ -26,8 +26,7 @@ Based on the data, there are several things that we need to do to prepare the da
 
 ### III. Exploratory Data Analysis
 
-The EDA will involve processes related to understanding characteristics of given fields in the underlying data such as variable distributions, whether the dataset is skewed towards a certain demographic, and the data validity of the fields. For  instance, a training dataset may be highly skewed towards Class. If so, how will this impact the results when using
-it to predict the remaining customer base.
+The EDA will involve processes related to understanding characteristics of given fields in the underlying data such as variable distributions, whether the dataset is skewed towards a certain demographic, and the data validity of the fields. For  instance, a training dataset may be highly skewed towards Class. If so, how will this impact the results when using it to predict the remaining customer base. In addition, we might ask some interesting questions like: Is the business class generally better rated than the other two classes? Which features/services are poorly rated across all classes? 
 
 Secondly, identifying limitations surrounding the data and gathering external data which may be useful for modeling purposes. This may include exploring other airline data at different service dimensions and creating additional features for the model. For example, **(provide possible feature engineering idea)**
 Exploration of interactions between different variables through correlation analysis and look out for multicollinearity by creating interaction variables. An example of this correlation may occur between independent variables "Age" and "Class" – i.e. people of the older brackets will be more inclined to a particular class offering.
