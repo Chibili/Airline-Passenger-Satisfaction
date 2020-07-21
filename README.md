@@ -14,8 +14,6 @@ Understanding the service dimensions such as "Leg Room Service", "Inflight Enter
 
 Correspondingly, we will treat this as a binary classification problem, where we will try to create a model that predicts whether the customer is satisfied or not with the experience and/or service provided by the airline.
 
-The aviation industry like most fast-paced businesses requires swift action to retain or attract customers. With the aid of data analytics, creating a business model that reflects on customer demands through uncovering patterns in a data-driven model is paramount.
-
 The following sections will illustrate the steps taken to develop the model;
 
 ### I. Data Collection
