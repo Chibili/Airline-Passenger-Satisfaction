@@ -39,15 +39,13 @@ Another possible step to do is factor analysis, where we describe the variabilit
 
 ### IV. Modeling Data
 
-This will involve creating questions that the model should have answers to. For instance, understanding which type of customers are the least satisfied with the airline service, is there a demographic bias towards such a customer rating? Understand the limitations poised by the given data, perform feature engineering and data transformation as stated above to create a data model that will effectively attempt to clarify such questions is essential. Other considerations regarding customer demographics can be obtained through data transformations such as  binning the "Age" variable into groups to better understand customer persona.
+This will involve providing questions that the model should have answers to. For instance, understanding which type of customers are the least satisfied with the airline service, whether or not there is a demographic bias towards such customer's rating. In addition, understanding the limitations poised by the given data, performing feature engineering and data transformation as stated above to create a data model that will effectively attempt to clarify such questions is essential. Other considerations regarding customer demographics can be obtained through data transformations such as  binning the "Age" variable into groups to better understand customer persona.
 
-Identifying the relationship between "Loyal Customers" and multiple airline service dimensions, "Type of Travel" and "Class". High value customers will be identified through ranking the "Flight Distance" variable into High, Medium or Low. This will be useful in creating actionable insights to target particular clients for more services. The model's output will be useful in acknowledging the levels of satisfaction from the client and will spur service improvement from the airline. 
+Identifying the relationship between "Loyal Customers" and multiple airline service dimensions, such as "Type of Travel" and "Class" are also necessary. High value customers will be identified through ranking the "Flight Distance" variable into "High", "Medium", or "Low". This will be useful in creating actionable insights to target particular clients for more services. The model's output will be useful in acknowledging the levels of satisfaction from the client and will spur service improvement from the airline. 
 
-Finally, testing all variables for multicollinearity will allow for a well-performing model. Additionally, acknowledging which of the variables has the most important predictor variables through regression coefficients, changes in the R-Squared value, and ANOVA tests. Various performance evaluation such as AUC or ROC Curves, R Squared, Precision-Recall and the F-Measure among others.  Once multiple evaluations have been successfully deployed, documenting the model’s performance, assumptions and limitations will be done. 
+Finally, testing all variables for multicollinearity and detecting outliers will allow for a well-performing model. Additionally, acknowledging which of the variables has the most important predictor variables through regression coefficients, changes in the R-Squared value, and ANOVA tests. Various metrics such as AUC or ROC Curves, R Squared, Precision-Recall and the F-Measure will serve as our baseline for performance evaluation. Once multiple evaluations have been successfully deployed, documenting the model’s performance, assumptions and limitations will be satisifed. 
 
 ### V. Data Intepretation
 
-
-•	Visualisation and presentation of findings. 
-
-•	This will involve interpreting the significant variables and co-efficient from a business perspective. 
+- Visualisation and presentation of findings. 
+- This will involve interpreting the significant variables and coefficient from a business perspective. 
