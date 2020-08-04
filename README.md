@@ -39,17 +39,8 @@ Exploration of interactions between different variables through correlation anal
 Furthermore, transformation of required data so that it is in an appropriate format for analysis. This may include steps such as ensuring that the data types are appropriate and rolling data up to an aggregated level. Or, joining in already
 aggregated external source data **(provide example)** to create additional variables.
 
-"Document assumptions, limitations and exclusions for the data; as well as how you would further improve in the next stage if there was additional time to address assumptions and remove limitations."
-=======
-Secondly, identifying limitations surrounding the data and gathering external data which may be useful for modeling purposes. This may include exploring other airline data at different service dimensions and creating additional features for the model. For example, **(provide possible feature engineering idea)**
-Exploration of interactions between different variables through correlation analysis and look out for multicollinearity by creating interaction variables. An example of this correlation may occur between independent variables "Age" and "Class" – i.e. people of the older brackets will be more inclined to a particular class offering.
-
-Furthermore, transforming the required data so that it is in an appropriate format for analysis. This may include steps such as ensuring that the data types are appropriate and rolling data up to an aggregated level. Or, joining in already aggregated external source data **(provide example)** to create additional variables.
-
 Another possible step to do is factor analysis, where we describe the variability among correlated variables in fewer variables (factors). For instance, instead of having multiple variables to describe the service (On-board Service, Baggage Handling, Inflight Service, etc.), we could work with one factor called "Service".
 
-"Document assumptions, limitations, and exclusions for the data; as well as how you would further improve in the next stage if there was additional time to address assumptions and remove limitations."
->>>>>>> bac27de60d905156eed7bc5dc067a241e64cb10a
 
 ### IV. Modeling Data
 
@@ -58,11 +49,6 @@ This will involve creating questions that the model should have answers to. For 
 Identifying the relationship between "Loyal Customers" and multiple airline service dimensions, "Type of Travel" and "Class". High value customers will be identified through ranking the "Flight Distance" variable into High, Medium or Low. This will be useful in creating actionable insights to target particular clients for more services. The model's output will be useful in acknowledging the levels of satisfaction from the client and will spur service improvement from the airline. 
 
 Finally, testing all variables for multicollinearity will allow for a well-performing model. Additionally, acknowledging which of the variables has the most important predictor variables through regression coefficients, changes in the R-Squared value, and ANOVA tests. Various performance evaluation such as AUC or ROC Curves, R Squared, Precision-Recall and the F-Measure among others.  Once multiple evaluations have been successfully deployed, documenting the model’s performance, assumptions and limitations will be done. 
-
-
-
-
-
 
 ### V. Data Intepretation
 
