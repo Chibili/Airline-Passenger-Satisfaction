@@ -27,12 +27,28 @@ Based on the data, there are several things that we need to do to prepare the da
 ### III. Exploratory Data Analysis
 
 
-The EDA will involved process related with understanding characteristics of given fields in the underlying data such as variable distributions, whether the dataset is skewed towards a certain demographic and the data validity of the fields. For  instance, a training dataset may be highly skewed towards  Class. If so, how will this impact the results when usingit to predict over the remaining customer base.
+The EDA will involved process related with understanding characteristics of given fields in the underlying data such as variable distributions, whether the dataset is skewed towards a certain demographic and the data validity of the fields. For  instance, a training dataset may be highly skewed towards  Class. If so, how will this impact the results when using
+it to predict over the remaining customer base.
 
-Secondly, identifying limitations surrounding the data and gather external data which may be useful for modelling purposes. This may include exploring other airline data at different service dimensions and creating additional features for the model. For example,  **(provide possible feature engineering idea)**Exploration of interactions between different variables through correlation analysis and look out for multicollinearity by creating interaction variables. An example of this correlation may occur between independent variables "Age" and "Class"" – i.e. people of the older brackets will be more inclined to a particular class offering.
-Furthermore, transformation of required data so that it is in an appropriate format for analysis. This may include steps such as ensuring that the data types are appropriate and rolling data up to an aggregated level. Or, joining in alreadyaggregated external source data **(provide example)** to create additional variables."Document assumptions, limitations and exclusions for the data; as well as how you would further improve in the next stage if there was additional time to address assumptions and remove limitations."
+
+Secondly, identifying limitations surrounding the data and gather external data which may be useful for modelling purposes. This may include exploring other airline data at different service dimensions and creating additional features for the model. For example,  **(provide possible feature engineering idea)**
+Exploration of interactions between different variables through correlation analysis and look out for multicollinearity by creating interaction variables. An example of this correlation may occur between independent variables "Age" and "Class"" – i.e. people of the older brackets will be more inclined to a particular class offering.
+
+Furthermore, transformation of required data so that it is in an appropriate format for analysis. This may include steps such as ensuring that the data types are appropriate and rolling data up to an aggregated level. Or, joining in already
+aggregated external source data **(provide example)** to create additional variables.
+
+"Document assumptions, limitations and exclusions for the data; as well as how you would further improve in the next stage if there was additional time to address assumptions and remove limitations."
 
 ### IV. Modeling Data
+
+This will involve creating questions that the model should have answers to. For instance, understanding which type of customers are the least satisfied with the airline service, is there a demographic bias towards such a customer rating? Understand the limitations poised by the given data, perform feature engineering and data transformation as stated above to create a data model that will effectively attempt to clarify such questions is essential. Other considerations regarding customer demographics can be obtained through data transformations such as  binning the "Age" variable into groups to better understand customer persona.
+
+Identifying the relationship between "Loyal Customers" and multiple airline service dimensions, "Type of Travel" and "Class". High value customers will be identified through ranking the "Flight Distance" variable into High, Medium or Low. This will be useful in creating actionable insights to target particular clients for more services. The model's output will be useful in acknowledging the levels of satisfaction from the client and will spur service improvement from the airline. 
+
+Finally, testing all variables for multicollinearity will allow for a well-performing model. Additionally, acknowledging which of the variables has the most important predictor variables through regression coefficients, changes in the R-Squared value, and ANOVA tests. Various performance evaluation such as AUC or ROC Curves, R Squared, Precision-Recall and the F-Measure among others.  Once multiple evaluations have been successfully deployed, documenting the model’s performance, assumptions and limitations will be done. 
+
+
+
 
 
 
