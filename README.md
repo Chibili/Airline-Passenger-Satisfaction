@@ -47,5 +47,6 @@ Finally, testing all variables for multicollinearity and detecting outliers will
 
 ### V. Data Intepretation
 
-- Visualisation and presentation of findings. 
+- Visualization and presentation of findings. 
 - This will involve interpreting the significant variables and coefficient from a business perspective. 
+- Practical and actionable insights that can be taken by the airline to improve overall service and customers' satisfaction.
