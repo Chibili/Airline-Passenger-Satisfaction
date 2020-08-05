@@ -18,7 +18,8 @@ The following sections will illustrate the steps taken to develop the model;
 
 ### I. Data Collection
 
-The Airline Passenger Satisfaction data was collected from [Kaggle.com](https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction). 
+The Airline Passenger Satisfaction data was collected from [Kaggle.com](https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction), which contains responses 
+from a US airline passenger satisfaction survey.
 
 ### II. Data Cleaning
 
